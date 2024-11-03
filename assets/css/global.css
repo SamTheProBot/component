@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Samakaran';
+  src: url('../fonts/SAMAN___.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'kathycox';
+  src: url('../fonts/KathyCox.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neueMetana';
+  src: url('../fonts/NeueMetana.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Samakaran';
+  min-height: 110vh;
+  background-color: #b9a69d;
+}
